@@ -1,0 +1,35 @@
+affinity:{}
+allowEmptyPassword: true
+alowOverrideNone: false #
+apacheConfiguration: ''
+args: []
+autoscaling:
+  enabled: false
+  maxReplicas: 5
+  minReplicas: 1
+  targetCPU: 50
+  targetMemory: 50
+clusterDomain: cluster.local
+command: []
+commonAnnotations: {}
+commonLabels: {}
+containerPorts:
+  htpp: 8080
+  htpp: 4343
+containerSecurityContext:
+  enabled: true
+externalDatabase:
+  database: user-WordPress
+  existingSecret:
+  host: localhost
+  password: ''
+  port: 3306
+  user: user-wordpress
+extraContainerPorts: []
+extraDeploys: []
+extraEnvVars: []
+extraEnvVarsSecret: ''
+
+
+
+  
