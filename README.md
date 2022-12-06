@@ -48,14 +48,6 @@ Puedes asegurarte de estar instalando desde el repositorio de Docker en lugar de
 ```
 apt-cache policy docker-ce
 ```
-Una salida correcta se verá como la siguiente con diferentes números de versión:
-docker-ce:
-   Installed: (none)
-   Candidate: 16.04.1~ce~4-0~ubuntu
-   Version table:
-       16.04.1~ce~4-0~ubuntu 500
-            500 https://download.docker.com/linux/ubuntubionic/stableamd64packages
-Como puedes ver, docker-ce no está instalado, por lo que podemos pasar al siguiente paso.
 
 5. Instala Docker en Linux
 ```
