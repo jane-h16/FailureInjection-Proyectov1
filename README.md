@@ -93,5 +93,15 @@ sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 
 kubectl version --client
 
-Ahora hablemos de su hermano menor. 
-![image](https://user-images.githubusercontent.com/70995323/205823441-1119ce19-b505-4cc4-97f5-1f98b1ab3333.png)
+### Instalación de KS8
+Siguiendo los pasos de instalación de su página oficial de https://k3s.io/
+
+1. Ingresar en la terminal 
+```
+curl -sfL https://get.k3s.io | sh - 
+```
+# Check for Ready node, takes ~30 seconds 
+k3s kubectl get node 
+
+### Diferencias de KS8 y KS3
+![image](https://user-images.githubusercontent.com/70995323/205823585-4524c47a-cfd3-4f48-95f6-cda0eddc4f8c.png)
