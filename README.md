@@ -107,3 +107,6 @@ k3s kubectl get node
 ### Diferencias de KS8 y KS3
 
 ![image](https://user-images.githubusercontent.com/70995323/205823585-4524c47a-cfd3-4f48-95f6-cda0eddc4f8c.png)
+
+K3s es una versión más ligera de K8, que tiene más extensiones y controladores. Por lo tanto, mientras que K8 a menudo tarda 10 minutos en implementarse, K3 puede ejecutar la API de Kubernetes en tan solo un minuto, es más rápido de iniciar y es más fácil de actualizar automáticamente y aprender.
+
