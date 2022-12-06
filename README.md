@@ -73,3 +73,25 @@ Para instalarlo ejecutamos en la maquina el siguiente comando:
 $ sudo docker run -d –restart=unless-stopped \
  -p 80:80 -p 443:443 rancher/rancher
 ```
+### Instalación de Kubernetes
+Siguiendo su página oficial de https://kubernetes.io/es/
+
+1. Instale el binario kubectl con curl en Linux
+Descargue la última versión con el comando:
+```
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/
+```
+2. Valide el binario kubectl con el archivo de comprobación:
+```
+echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
+```
+3. Instalar kubectl
+```
+sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+```
+4. Para asegurarse de que la versión que instaló este actualizada ejecute:
+
+kubectl version --client
+
+Ahora hablemos de su hermano menor. 
+![image](https://user-images.githubusercontent.com/70995323/205823441-1119ce19-b505-4cc4-97f5-1f98b1ab3333.png)
