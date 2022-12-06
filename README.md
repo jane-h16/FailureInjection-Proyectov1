@@ -14,3 +14,10 @@ Al implementar una instalación de WordPress con servicios para dar inicio de ce
 También su uso generá escenarios comunes de error/degradación de producción y demostrar que es tolerante a fallas, ya que los usuarios no experimentarán ninguna interrupción del servicio gracias a Kubernetes.
 
 ### :heavy_check_mark: Tecnologías Aplicadas
+- Docker
+- Kubernetes
+- WordPress
+- K3S
+- Rancher
+- GitHub
+
