@@ -22,6 +22,7 @@ También su uso generá escenarios comunes de error/degradación de producción 
 - GitHub
 
 ### Instalación de Docker 
+Siguiendo los pasos de la página oficial de Docker https://www.docker.com/
 1. Actualiza tu sistema
 Ejecuta los siguientes dos comandos:
 ```
@@ -65,7 +66,7 @@ sudo docker run hello-world
 ```
 
 ### Instalación de Rancher 
-
+Siguiendo las indicaciones de su página oficial de Rancher https://www.rancher.com/
 La instalación de Rancher es sencilla, lo primero que nos dice que tengamos una maquina Linux con al menos 4GB de memoria y con Docker instalado.
 Para instalarlo ejecutamos en la maquina el siguiente comando:
 
@@ -100,8 +101,9 @@ Siguiendo los pasos de instalación de su página oficial de https://k3s.io/
 ```
 curl -sfL https://get.k3s.io | sh - 
 ```
-# Check for Ready node, takes ~30 seconds 
+Check for Ready node, takes ~30 seconds 
 k3s kubectl get node 
 
 ### Diferencias de KS8 y KS3
+
 ![image](https://user-images.githubusercontent.com/70995323/205823585-4524c47a-cfd3-4f48-95f6-cda0eddc4f8c.png)
