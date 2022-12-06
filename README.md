@@ -21,3 +21,10 @@ También su uso generá escenarios comunes de error/degradación de producción 
 - Rancher
 - GitHub
 
+### Instalación de Rancher 
+
+La instalación de Rancher es sencilla, lo primero que nos dice que tengamos una maquina Linux con al menos 4GB de memoria y con Docker instalado.
+Para instalarlo ejecutamos en la maquina el siguiente comando:
+
+'''$ sudo docker run -d –restart=unless-stopped \
+ -p 80:80 -p 443:443 rancher/rancher'''
